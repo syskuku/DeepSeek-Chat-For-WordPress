@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: DeepSeek AI for Class5
+Plugin Name: DeepSeek AI for Wordpress
 Description: 在主页右下角添加一个支持上下文的DeepSeek聊天窗口。
 Version: 1.0
 Author: iMikufans
