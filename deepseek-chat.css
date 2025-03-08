@@ -1,0 +1,112 @@
+#deepseek-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    border: 2px solid #0078d7;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    transition: bottom 0.3s ease;
+}
+
+#deepseek-chat-header {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#deepseek-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+#deepseek-logo-container img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#deepseek-logo-container span {
+    color: #fff;
+    font-size: 14px;
+}
+
+#deepseek-chat-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#deepseek-chat-body {
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+#deepseek-chat-input {
+    width: calc(100% - 120px);
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#deepseek-chat-submit, #deepseek-chat-toggle {
+    padding: 10px;
+    margin: 10px;
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#deepseek-chat-deepthink {
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+    color: #0078d7;
+    border: 2px solid #0078d7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-message, .bot-message {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.user-message {
+    background: #f1f1f1;
+    text-align: right;
+    float: right;
+}
+
+.bot-message {
+    background: #e1f5fe;
+    text-align: left;
+    float: left;
+}
+
+.typing-indicator {
+    font-style: italic;
+    color: #aaa;
+    display: inline-block;
+    max-width: 80%;
+}
